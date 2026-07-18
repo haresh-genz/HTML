@@ -1,0 +1,26 @@
+# Book Price & Offer Table
+
+```html
+<table border="1">
+  <tr>
+    <th>Book Title</th>
+    <th>Original Price</th>
+    <th>Special Offer</th>
+  </tr>
+  <tr>
+    <td>The Great Gatsby</td>
+    <td>₹1,200</td>
+    <td>20% Off</td>
+  </tr>
+  <tr>
+    <td>To Kill a Mockingbird</td>
+    <td>₹999</td>
+    <td>Buy 1 Get 1 Free</td>
+  </tr>
+  <tr>
+    <td>1984</td>
+    <td>₹450</td>
+    <td>Free Shipping</td>
+  </tr>
+</table>
+```
