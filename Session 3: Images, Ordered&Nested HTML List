@@ -1,0 +1,49 @@
+# HTML Images & Lists Reference
+
+## 1. Images
+* `<img>`: Embeds an image. It is self-closing (no `</img>` needed).
+* `src`: Attribute for the image URL or file path.
+* `alt`: Attribute for description text (crucial for accessibility).
+
+```html
+<img src="https://example.com" alt="A scenic mountain peak at sunrise">
+```
+
+## 2. Unordered Lists
+* `<ul>`: Creates the bulleted list container.
+* `<li>`: Defines each item inside the list.
+
+```html
+<ul>
+  <li>Apples</li>
+  <li>Bananas</li>
+  <li>Oranges</li>
+</ul>
+```
+
+## 3. Nested Lists
+* Place a new `<ul>` or `<ol>` **inside** an `<li>` tag to create sub-items.
+
+```html
+<ul>
+  <li>Fruits
+    <ul>
+      <li>Apples</li>
+      <li>Bananas</li>
+    </ul>
+  </li>
+  <li>Vegetables
+    <ul>
+      <li>Carrots</li>
+      <li>Broccoli</li>
+    </ul>
+  </li>
+</ul>
+```
+
+## 1. OL Type Options (`<ol type="...">`)
+* `type="1"`: Numbers (1, 2, 3)
+* `type="a"`: Lowercase letters (a, b, c)
+* `type="A"`: Uppercase letters (A, B, C)
+* `type="i"`: Lowercase Roman (i, ii, iii)
+* `type="I"`: Uppercase Roman (I, II, III)
