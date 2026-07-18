@@ -1,0 +1,20 @@
+# HTML Audio Player
+
+* **Purpose**: Embeds sound content (music, podcasts) directly into a webpage.
+* **Tag**: `<audio>`
+* **Key Attribute**: `controls` (displays the play, pause, and volume buttons).
+
+## Supported Formats
+* MP3, WAV, OGG.
+
+## Code Example
+```html
+<audio src="audio-file.mp3" controls>
+  Your browser does not support the audio element.
+</audio>
+```
+
+## Useful Attributes (Optional)
+* `autoplay`: Starts playing the sound automatically on load (often muted by browsers).
+* `loop`: Automatically restarts the track when it finishes.
+* `muted`: Mutes the audio track by default.
