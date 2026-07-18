@@ -1,0 +1,23 @@
+# HTML Table Tag Quick Sheet
+
+* **Purpose**: Displays data in a structured grid of rows and columns.
+* **Core Tag**: `<table>` wraps the entire table layout.
+
+## Essential Child Tags
+* `<tr>`: Table Row (creates a horizontal line of data).
+* `<th>`: Table Header (bold, centered text for column labels).
+* `<td>`: Table Data (standard cell content).
+
+## Code Example
+```html
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Role</th>
+  </tr>
+  <tr>
+    <td>Alice</td>
+    <td>Developer</td>
+  </tr>
+</table>
+```
