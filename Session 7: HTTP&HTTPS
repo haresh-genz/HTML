@@ -1,0 +1,9 @@
+# HTTP vs HTTPS
+
+* **HTTP (Hypertext Transfer Protocol)**: Transmits data in plain text. Vulnerable to hacking because data is unencrypted.
+* **HTTPS (Hypertext Transfer Protocol Secure)**: Encrypts data using an SSL/TLS certificate. Protects sensitive information like passwords and credit cards.
+
+## Key Differences
+* **Security**: HTTP is unsecure; HTTPS is secure.
+* **Port**: HTTP uses port 80; HTTPS uses port 443.
+* **SEO**: Search engines (like Google) penalize HTTP sites and rank HTTPS sites higher.
