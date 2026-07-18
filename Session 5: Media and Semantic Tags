@@ -1,0 +1,14 @@
+ HTML5 Media & Semantic Tags
+
+## Media
+* `<audio>`: Plays sound files. Uses `controls` attribute for playback buttons.
+* `<video>`: Plays video clips. Requires `controls`, `width`, and `height`.
+
+## Layout (Semantic)
+* `<header>`: Top section containing logos, titles, or navigation links.
+* `<nav>`: Group of navigation links for website menus.
+* `<main>`: Wraps the unique, primary content of the webpage.
+* `<section>`: Groups related content together into a distinct chapter or zone.
+* `<footer>`: Bottom section containing copyrights, contact info, or legal links.
+
+
