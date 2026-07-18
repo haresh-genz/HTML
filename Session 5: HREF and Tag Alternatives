@@ -1,0 +1,15 @@
+# Modern Alternatives for Bold & Italic Tags
+
+*   `<b>` alternative to `<strong>`
+*   `<i>` alternative to `<em>`
+
+## Why they are used
+Modern tags (`<strong>`, `<em>`) tell screen readers and search engines that the text is **important** or **emphasized** (semantic meaning). 
+
+The older tags (`<b>`, `<i>`) only change how the text **looks visually** without adding any extra meaning or context.
+
+HREF:
+* **Definition**: Stands for **Hypertext Reference**.
+* **Purpose**: Specifies the URL or target destination of a hyperlink.
+* **Usage**: Used inside the anchor tag (`<a>`).
+
