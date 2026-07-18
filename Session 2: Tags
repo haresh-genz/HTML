@@ -1,0 +1,56 @@
+Tags:
+
+## 1. Structure
+* `<!DOCTYPE html>`: Defines HTML5.
+* `<html>`: Root container.
+* `<head>`: Page metadata.
+* `<title>`: Browser tab text.
+* `<body>`: Visible content.
+
+```html
+<!DOCTYPE html>
+<html>
+<head><title>Title</title></head>
+<body><!-- Content here --></body>
+</html>
+```
+
+## 2. Text
+* `<h1>` to `<h6>`: Headings (Largest to smallest).
+* `<p>`: Text paragraph.
+* `<br>`: Line break.
+* `<strong>`: Bold text.
+* `<em>`: Italic text.
+
+```html
+<h1>Header</h1>
+<p>Text with <strong>bold</strong> and <em>italics</em>.</p>
+```
+
+## 3. Links & Media
+* `<a>`: Hyperlink. Uses `href="URL"`.
+* `<img>`: Image. Uses `src="image.jpg"` and `alt="description"`.
+
+```html
+<a href="https://github.com">Link</a>
+<img src="pic.jpg" alt="Logo">
+```
+
+## 4. Lists
+* `<ul>`: Bulleted list.
+* `<ol>`: Numbered list.
+* `<li>`: List item.
+
+```html
+<ul>
+  <li>Item A</li>
+</ul>
+<ol>
+  <li>Item 1</li>
+</ol>
+```
+
+## 5. Containers
+* `<div>`: Block container (starts new line).
+* `<span>`: Inline container (stays on same line).
+
